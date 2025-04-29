@@ -28,9 +28,9 @@ All the required data of ESC-50 for processing 20kHz are now ready at datasets/e
    
    Results: No. Param: 0.098M; FLOPs: 0.088G; Top-1 Accuracy: 87.00%
   
-5. E2E_ULDSC.pt: the original model with 20% channel pruned and without weight pruned. 
+5. E2E_ULDSC.pt: the original model with 20% channel pruned and without weight pruned.
 
-E2E_ULDSC_Sparse.pt: the model with 20% channel pruned and with 90% weight pruned: Results: No. Param: 0.01M; FLOPs: 0.009G; Top-1 Accuracy: 84.50%  
+   E2E_ULDSC_Sparse.pt: the model with 20% channel pruned and with 90% weight pruned: Results: No. Param: 0.01M; FLOPs: 0.009G; Top-1 Accuracy: 84.50%  
 
     
   
