@@ -3,7 +3,7 @@ End-to-End Ultra-Lightweight DSC (E2E-ULDSC) neural network
 
 Introduction and Requirement
 
-In our project, the Environmental Sound Classification on ESC-50 dataset is realized by the proposed E2E-ULDSC neural network, which mainly consists of 8 depthwise separable convolution layers for lightweight purpose. The number of parameters and FLOPs are reduced to 0.098M and 0.088G, respectively, while keeping the accuracy of 87.00%.
+In our project, the Environmental Sound Classification on ESC-50 dataset is realized by the proposed E2E-ULDSC neural network, which mainly consists of 8 depthwise separable convolution layers for lightweight purpose. The number of parameters and FLOPs are reduced to 0.156M and 0.124G, respectively, while keeping the accuracy of 87.25%.
 The E2E-ULDSC-Sparse is obtained through knowledge distillation and model pruning. The number of parameters and FLOPs are further reduced to 0.01M and 0.009G, while the accuracy reaches 84.50%.
 
 
@@ -28,7 +28,7 @@ All the required data of ESC-50 for processing 20kHz are now ready at datasets/e
    
    Results: No. Param: 0.098M; FLOPs: 0.088G; Top-1 Accuracy: 87.00%
   
-5. E2E_ULDSC.pt: the original model with 20% channel pruned and without weight pruned.
+5. E2E_ULDSC.pt: the original model without channel pruned and without weight pruned.
 
    E2E_ULDSC_Sparse.pt: the model with 20% channel pruned and with 90% weight pruned:
 
