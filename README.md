@@ -26,7 +26,7 @@ All the required data of ESC-50 for processing 20kHz are now ready at datasets/e
    
    3.4. Select the fold on which the model was Validated: "4"
    
-   Results: No. Param: 0.098M; FLOPs: 0.088G; Top-1 Accuracy: 87.00%
+   Results: No. Param: 0.156M; FLOPs: 0.124G; Top-1 Accuracy: 87.25%
   
 5. E2E_ULDSC.pt: the original model without channel pruned and without weight pruned.
 
