@@ -193,8 +193,5 @@ class Calculator(object):
         #bytes = params * 32 bits / 8bits = params * 4, MBits = bits/2024, MBytes = bytes/2014
         input_size = abs(np.prod(self.inputs)*4./(1024*1024));
         params_size = abs(self.params*4./(1024*1024));
-        summary_str += "Input size (MB) : {:.2f}\n".format(input_size);
-        summary_str += "Params size (MB): {:.2f}\n".format(params_size);
-        summary_str += "Total size (MB) : {:.2f}\n".format(input_size+params_size);
         summary_str += "------------------------------------------------------------------------------" + "\n";
         print(summary_str);
