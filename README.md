@@ -18,6 +18,7 @@ The E2E-ULDSC-Pruned is obtained through knowledge distillation and model prunin
    ESC-50 contains 2000 samples (5-sec-long audio recordings, sampled at 16kHz and 44.1kHz) which are equally distributed over 50 balanced disjoint classes (40 audio samples for each class).On this basis, we changed the sampling rate of the data set to 20kHZ, and applied five-fold cross-validation processing. Each fold contains 4000 pieces of data (1,1,30225), four of which are used for network training, and the other one is used for validation.Download and process the data set by using the following project:https://github.com/mohaimenz/acdnet   
 All the required data of ESC-50 for processing 20kHz are now ready at datasets/esc50 directory
 3. How to test
+   
    3.1. Download or clone this repositoriesLoading
    
    3.2 run "tester.py";
